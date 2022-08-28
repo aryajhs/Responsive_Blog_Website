@@ -1,0 +1,94 @@
+<html>
+    <head>
+       
+        <meta name="viewport" content=  "with=device-width, initial-scale=1.0">
+        <title>University Website Design - Arya workshop</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script defer src="https://friconix.com/cdn/friconix.js"> </script>
+</head>
+    <body>
+        <section class="subheader">
+           <nav>
+               <a href="index.html"><img src="images/red wolf.png" ></a>
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                   <ul>
+                       <li>
+                        <a href="index.html">HOME</a>   </li>
+                        <li> <a href="Login.html">LOGIN</a></li>
+                        <li>  <a href="about.html">ABOUT</a></li>
+                        <li>  <a href="course.html">OUR DATABASE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                       
+                   </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+           </nav>
+         <h1>About Us</h1>
+
+        </section>
+        <!------about us content----->
+        <section class="about-us">
+            <div class="about-col">
+                <h1>We are best in what we Do!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. </p>
+                <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/cat2.jpg">
+            </div>
+        </section>
+        
+
+< 
+
+<!------Footer---------->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue</p>
+    <div class="icons">
+        <i class="fi-xnsuxl-facebook"></i>
+        <i class="fi-xnsuxl-twitter-solid"></i>
+        <i class="fi-xnsuxl-discord"></i>
+        <i class="fi-xnsuxl-instagram"></i>
+        <i class="fi-xnsuxl-linkedin"></i>
+        
+
+    </div>
+    <p>Made with<i class="fi-xnluxl-heart"></i>by Aryan </p>
+
+</section>
+
+
+
+
+
+
+
+    <!---------------javascript for toggle------------->
+        <script>
+           var navLinks = document.getElementById("navLinks");
+
+           function showMenu(){
+               navLinks.style.right = "0";
+
+           }
+           function hideMenu(){
+               navLinks.style.right = "-200px";
+
+           }
+        </script>
+    
+    </body>
+
+</html>
+
+
+

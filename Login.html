@@ -1,0 +1,112 @@
+<html>
+    <head>
+       
+        <meta name="viewport" content=  "with=device-width, initial-scale=1.0">
+        <title>University Website Design - Arya workshop</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script defer src="https://friconix.com/cdn/friconix.js"> </script>
+</head>
+    <body>
+        <section class="triheader">
+           <nav>
+               <a href="index.html"><img src="images/red wolf.png" ></a>
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                   <ul>
+                       <li>
+                        <a href="index.html">HOME</a>   </li>
+                        <li> <a href="Login.html">LOGIN</a></li>
+                        <li>  <a href="about.html">ABOUT</a></li>
+                        <li>  <a href="course.html">OUR DATABASE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                       
+                   </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+           </nav>
+           <section class="blog-content">           
+            <div class="sign2">  	
+                <input type="checkbox" id="chk" aria-hidden="true">
+        
+                    <div class="signup">
+                        <form>
+                            <label for="chk" aria-hidden="true">Sign up</label>
+                            <input type="text" name="txt" placeholder="User name" required="">
+                            <input type="email" name="email" placeholder="Email" required="">
+                            <input type="password" name="pswd" placeholder="Password" required="">
+                            <button>Sign up</button>
+                        </form>
+                    </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                    <div class="login">
+                        <form>
+                            <label for="chk" aria-hidden="true">Login</label>
+                            <input type="email" name="email" placeholder="Email" required="">
+                            <input type="password" name="pswd" placeholder="Password" required="">
+                            <button>Login</button>
+                        </form>
+                    </div>
+            </div>
+        </section>
+
+        
+
+        </section>
+         
+
+
+<!------Footer---------->
+ 
+
+
+
+
+
+
+
+    <!---------------javascript for toggle------------->
+        <script>
+           var navLinks = document.getElementById("navLinks");
+
+           function showMenu(){
+               navLinks.style.right = "0";
+
+           }
+           function hideMenu(){
+               navLinks.style.right = "-200px";
+
+           }
+        </script>
+    
+    </body>
+
+</html>
+
+
+
